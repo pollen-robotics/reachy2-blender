@@ -23,7 +23,10 @@ To use the rigged model:
 If you want to synchronize the animations with a simulated robot:
 - You will need a fake Reachy simulation running. A **Docker** is available with Reachy's stack [here](https://hub.docker.com/r/pollenrobotics/reachy2).
 
-## SDK Installation
+## Installation
+### Blender Installation
+
+### SDK Installation
 To be able to run the synchronization script, you need to install the Reachy SDK in Blender's Python environment. To do so, follow these steps:
 1. Open a terminal and navigate to the folder where you installed Blender.
 2. Once in the folder, you will need to go to the Python binary folder of Blender. The path will look like this:
@@ -48,11 +51,7 @@ For the subparts actuated by an Orbita2D (shoulder, elbow of each arm), two circ
 
 <div align="center">
 
-<video controls="controls" width="80%" autoplay loop>
-    <source type="video/mp4" src="assets/joint_manipulation.mp4">
-    </source>
-    <p>Your browser does not support the video element.</p>
-</video>
+![banner](assets/joint_manipulation.gif)
 
 </div>
 
@@ -64,9 +63,10 @@ The two steps to run the script are:
 2. The GUI script should be opened in the text editor. Select it and click on **Run Script**.
 
 Once the script is running, the window (3) should appear.
+
 <div align="center">
 
-![reachy_blender_interface](assets/start_script.png)
+![banner](assets/sync_blender_fake_reachy.gif)
 
 </div>
 
