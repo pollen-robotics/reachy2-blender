@@ -63,28 +63,24 @@ The two steps to run the script are:
 2. The GUI script should be opened in the text editor. Select it and click on **Run Script**.
 
 Once the script is running, the window (3) should appear.
-
 <div align="center">
 
-![banner](assets/sync_blender_fake_reachy.gif)
+![reachy_blender_interface](assets/start_script.png)
 
 </div>
 
 When using the Reachy control window, you will face three different window state detailed below:
+
 <div align="center">
 
 ![reachy_blender_interface](assets/reachy_blender_interface.jpg)
 
-When the syncrhonization is ongoing, the state of the selected parts (head, right arm and/or left arm) will be copied to the robot. The synchronization is done in real-time, so you can move the robot in Blender and see it moving on the robot.
-
 </div>
+
+When the syncrhonization is ongoing, the state of the selected parts (head, right arm and/or left arm) will be copied to the robot. The synchronization is done in real-time, so you can move the robot in Blender and see it moving on the robot.
 
 <div align="center">
 
-<video controls="controls" width="80%" autoplay loop>
-    <source type="video/mp4" src="assets/sync_blender_fake_reachy.mp4">
-    </source>
-    <p>Your browser does not support the video element.</p>
-</video>
+![banner](assets/sync_blender_fake_reachy.gif)
 
 </div>
