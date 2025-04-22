@@ -73,7 +73,7 @@ For the subparts actuated by an Orbita2D (shoulder, elbow of each arm), two circ
 
 <div align="center">
 
-![banner](assets/joint_manipulation.gif)
+![banner](assets/joints_manipulation.gif)
 
 </div>
 
