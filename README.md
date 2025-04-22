@@ -103,6 +103,6 @@ When the syncrhonization is ongoing, the state of the selected parts (head, righ
 
 <div align="center">
 
-![banner](assets/sync_blender_fake_reachy.gif)
+![banner](assets/sync_blender_reachy.gif)
 
 </div>
