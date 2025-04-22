@@ -24,8 +24,14 @@ If you want to synchronize the animations with a simulated robot:
 - You will need a fake Reachy simulation running. A **Docker** is available with Reachy's stack [here](https://hub.docker.com/r/pollenrobotics/reachy2).
 
 ## Installation
-### Blender Installation
+### Blender Project Installation
 Download the latest version of Blender from the [official website](https://www.blender.org/download/).
+Initialize git lfs and clone the repository:
+```bash
+git lfs install
+git clone reachy2-blender
+```
+Then, navigate to the `reachy2-blender` folder and open the `reachy2.blend` file in Blender.
 
 <details>
 <summary>Adding the sailor shirt to the texture</summary>
