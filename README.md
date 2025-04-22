@@ -25,6 +25,28 @@ If you want to synchronize the animations with a simulated robot:
 
 ## Installation
 ### Blender Installation
+Download the latest version of Blender from the [official website](https://www.blender.org/download/).
+
+<details>
+<summary>Adding the sailor shirt to the texture</summary>
+
+If you open the Blender project `reachy2.blend` as is and switch in the viewport shading to *Material Preview* or *Rendered* mode, you will see that the robot shirt which is supposed to be a sailor shirt is missing its texture. This is a texture needs to be added manually.
+
+To add it, follow these steps: 
+1. Go to shading workspace in the top bar
+2. Switch to object mode
+3. In the shader editor, select Object instead of World
+4. In the node 'mariniere.jpg', click on Open Image and select the mariniere.jpg file in the assets folder. The texture should now be visible in the viewport.
+
+The video below shows the steps to follow to add the texture to the shirt.
+
+<div align="center">
+
+![add_texture](assets/add_texture.gif)
+
+</div>
+
+</details>
 
 ### SDK Installation
 To be able to run the synchronization script, you need to install the Reachy SDK in Blender's Python environment. To do so, follow these steps:
@@ -33,15 +55,15 @@ To be able to run the synchronization script, you need to install the Reachy SDK
    ```bash
    cd <blender_version>/python/bin
    ```
-For example if you installed the 4.4.1 version of Blender, the command will be:
-```bash
-cd blender-4.4.1-linux-x64/4.4/python/bin
-``` 
+   For example if you installed the 4.4.1 version of Blender, the command will be:
+    ```bash
+    cd blender-4.4.1-linux-x64/4.4/python/bin
+    ``` 
 3. Once in the Python binary folder, you can install the Reachy SDK using pip. Run the following command:
-```bash
-./python3.11 -m pip install reachy2-sdk>=1.0.10
-```
-Please note the minimal sdk version required is 1.0.10 to be able to fully us ethe syncrhonization script.
+    ```bash
+    ./python3.11 -m pip install reachy2-sdk>=1.0.10
+    ```
+    Please note the minimal sdk version required is 1.0.10 to be able to fully us ethe syncrhonization script.
 
 ## Usage
 ### Animating the rigged model
